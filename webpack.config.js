@@ -1,6 +1,6 @@
-export default {
+module.exports = {
     name: 'used-before-initialization',
-    entry: './index.ts',
+    entry: './src/index.ts',
     module: {
         rules: [
             {
@@ -15,7 +15,7 @@ export default {
                 test: /\.m?js/,
                 resolve: {
                     fullySpecified: false,
-                } as any,
+                },
             },
         ],
     },
@@ -35,4 +35,4 @@ export default {
     },
     mode: 'development',
     target: 'node'
-} as any;
+};

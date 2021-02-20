@@ -10,10 +10,10 @@
     "target": "es2019",
     "skipLibCheck": true,
     "inlineSourceMap": true,
-    "outDir": "./dist",
+    "outDir": "./lib",
     "baseUrl": "./",
     "incremental": true,
-    "tsBuildInfoFile": "tsbuildinfo/webpack.tsbuildinfo",
+    "tsBuildInfoFile": "tsbuildinfo/build.tsbuildinfo",
     "plugins": [
       {
         "transform": "@effect-ts/tracing-plugin"
