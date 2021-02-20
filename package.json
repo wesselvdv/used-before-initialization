@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "build:tsc": "tsc -p tsconfig.build.json"
+    "build:tsc": "ttsc -p tsconfig.build.json"
   },
   "author": "Wessel van der Veen",
   "license": "ISC",
